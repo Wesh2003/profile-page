@@ -66,3 +66,76 @@
     background-color: rgb(255, 166, 0);
     color: rgb(255, 255, 255);
 }
+
+
+@media screen and (max-width: 1400px) and (min-width: 650px) {
+    #form-full {
+        background-color: rgb(159, 71, 246);
+        width: 700px;
+        margin-left: 100px;
+        height: 800px;
+        padding-top: 20px;
+        margin-top: 50px;
+    }
+  }
+  
+  /* Hide the navbar on very small screens */
+  @media screen and (max-width: 650px) {
+
+    #form-full {
+        background-color: rgb(159, 71, 246);
+        width: 500px;
+        margin-left: 20px;
+        height: 900px;
+        padding-top: 20px;
+        margin-top: 50px;
+    }
+    #form-button{
+        margin-left: 80px;
+        margin-top: 40px;
+        width: 300px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: rgb(255, 52, 106);
+        color: white;
+    }
+    .dark-mode #form-button {
+        margin-left: 80px;
+        margin-top: 40px;
+        width: 300px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: rgb(255, 166, 0);
+        color: rgb(255, 255, 255);
+    }
+    #form-full h1 {
+        color: white;
+        margin-left: 70px;
+    }
+    .form-inputs {
+        margin-bottom: 50px;
+        border-style: solid;
+        width: 300px;
+        height: 40px;
+        margin-left: 70px;
+    }
+    #email {
+        margin-left: 70px;
+    }
+    #lastname{
+        margin-left: 70px;
+    }
+    #comment{
+        width: 320px;
+        height: 200px;
+        margin-left: 70px;
+    }
+    #comment-label{
+        margin-top: -1px;
+        float: left;
+    }
+  }

@@ -36,6 +36,7 @@
     border-radius: 8%;
     font-size: 15px;
     font-weight: bold;
+    margin-top: 70px;
   }
   .dark-mode #git-button {
     background-color: purple;

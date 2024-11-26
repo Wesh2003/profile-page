@@ -3,7 +3,7 @@
     border-color: white;
     border-width: 2px;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     height: 60px;
     padding-top: 20px;
     padding-bottom: 3px;
@@ -20,15 +20,19 @@
     color: black;
   }
   #light-mode-toggle-btn{
-    margin-left: 50px;
+    margin-left: 1000px;
+    margin-top: -60px;
+    margin-right: 70px;
     width: 35px;
+    float: right;
+    margin-bottom: 60px;
   }
   
   @media screen and (max-width: 1400px) and (min-width: 650px) {
     #nav-bar-tum {
       height: 130px;
       width: 870px;
-      margin-left: auto;
+      margin-left: 50px;
       margin-right: auto;
     }
     #nav-bar-tum a {
@@ -41,6 +45,13 @@
     }
     .hidden-nav #drop-down-navbar{
       display: none !important;
+    }
+    #light-mode-toggle-btn{
+      margin-top: -130px;
+      margin-right: 380px;
+      width: 35px;
+      float: right;
+      margin-bottom: 120px;
     }
   }
   
@@ -55,6 +66,14 @@
       position: relative;
       margin-top: -400px;
       margin-left: 60px;
+      margin-bottom: 10px;
+    }
+    #light-mode-toggle-btn{
+      margin-top: -390px;
+      margin-right: 980px;
+      width: 35px;
+      float: right;
+      margin-bottom: 10px;
     }
   }
   #home {
