@@ -39,7 +39,7 @@
     }
     #nav-bar-tum a {
       font-size: 18px;
-      margin-left: -40px; /* Reduce padding */
+      margin-left: -40px; 
     }
     #home {
       margin-right: -380px;
@@ -57,7 +57,7 @@
     }
   }
   
-  /* Hide the navbar on very small screens */
+
   @media screen and (max-width: 650px) {
     #nav-bar-tum {
       display: none;

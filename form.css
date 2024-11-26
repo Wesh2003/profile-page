@@ -79,7 +79,7 @@
     }
   }
   
-  /* Hide the navbar on very small screens */
+ 
   @media screen and (max-width: 650px) {
 
     #form-full {

@@ -105,7 +105,7 @@
     }
   }
   
-  /* Hide the navbar on very small screens */
+  
   @media screen and (max-width: 650px) {
     #education-card{
       border-style: solid;
