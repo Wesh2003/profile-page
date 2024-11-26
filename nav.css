@@ -7,6 +7,7 @@
     height: 60px;
     padding-top: 20px;
     padding-bottom: 3px;
+    padding-right: 50px;
     margin-left: 0px;
     margin-top: -500px;
     position: sticky;
@@ -18,6 +19,7 @@
   .dark-mode #nav-bar-tum {
     border-color: black;
     color: black;
+    border-width:thin;
   }
   #light-mode-toggle-btn{
     margin-left: 1000px;
